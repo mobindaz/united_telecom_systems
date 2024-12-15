@@ -1,0 +1,25 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500">
+  <title>CCTV Camera</title>
+  <style>
+    .background { fill: #ffffff; }
+    .camera-body { fill: #333333; stroke: #000000; stroke-width: 2; }
+    .camera-lens { fill: #007acc; }
+    .mount { fill: #666666; }
+    .arm { fill: #999999; }
+  </style>
+
+  <!-- Background -->
+  <rect class="background" x="0" y="0" width="500" height="500" />
+
+  <!-- Camera Body -->
+  <rect class="camera-body" x="150" y="200" width="200" height="80" rx="10" ry="10" />
+
+  <!-- Camera Lens -->
+  <circle class="camera-lens" cx="340" cy="240" r="20" />
+
+  <!-- Camera Arm -->
+  <rect class="arm" x="180" y="280" width="20" height="70" />
+
+  <!-- Wall Mount -->
+  <rect class="mount" x="170" y="350" width="40" height="20" />
+</svg>
